@@ -2,7 +2,7 @@ import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import ContactForm from '../components/ContactForm';
 import { COMPANY_CONTACT } from '../constants';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { Mail, Clock } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -24,20 +24,6 @@ const Contact: React.FC = () => {
                 <div className="bg-gbh-black text-white p-8 rounded-sm shadow-lg">
                     <h3 className="text-xl font-bold mb-6 border-b border-gray-700 pb-4">Coordonnées</h3>
                     <ul className="space-y-6">
-                        <li className="flex items-start gap-4">
-                            <MapPin className="w-6 h-6 text-gbh-red flex-shrink-0" />
-                            <div>
-                                <span className="block font-bold text-gray-200">Adresse</span>
-                                <span className="text-gray-400 text-sm">{COMPANY_CONTACT.address}</span>
-                            </div>
-                        </li>
-                        <li className="flex items-start gap-4">
-                            <Phone className="w-6 h-6 text-gbh-red flex-shrink-0" />
-                            <div>
-                                <span className="block font-bold text-gray-200">Téléphone</span>
-                                <span className="text-gray-400 text-sm">{COMPANY_CONTACT.phone}</span>
-                            </div>
-                        </li>
                         <li className="flex items-start gap-4">
                             <Mail className="w-6 h-6 text-gbh-red flex-shrink-0" />
                             <div>

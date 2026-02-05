@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
           <div className="flex-shrink-0 flex items-center gap-3">
             <img src="/images/logo-gbh-3d.svg" alt="GBH" className="h-10 w-auto" />
             <div className="flex flex-col">
-              <span className="font-bold text-xl tracking-tighter leading-none">GBH DOOR</span>
+              <span className="font-bold text-xl tracking-tighter leading-none">DOOR</span>
               <span className="text-[10px] text-gray-400 uppercase tracking-widest">Systèmes industriels</span>
             </div>
           </div>
